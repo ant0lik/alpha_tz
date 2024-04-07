@@ -10,3 +10,9 @@ node_modules/
 .vscode/symbols.json
 .DS_Store
 .idea
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth
+.vscode
