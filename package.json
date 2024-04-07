@@ -1,0 +1,40 @@
+{
+  "name": "alpha_tz_playwright",
+  "version": "1.0.0",
+  "description": "QA Automation project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --config=src/playwright.config.ts",
+    "generateReport": "npx allure generate allure/results -o allure/report --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ant0lik/alpha_tz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ant0lik/alpha_tz/issues"
+  },
+  "homepage": "https://github.com/ant0lik/alpha_tz#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.12.3",
+    "@types/allure-js-commons": "0.0.1",
+    "@typescript-eslint/eslint-plugin": "5.60.0",
+    "@typescript-eslint/parser": "5.60.0",
+    "allure-commandline": "2.22.4",
+    "allure-playwright": "2.5.0",
+    "dotenv": "16.3.1",
+    "eslint": "8.43.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "http-server": "14.1.1",
+    "playwright": "1.42.1",
+    "prettier": "2.8.8",
+    "ts-node": "10.9.1",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "5.0.4"
+  }
+}

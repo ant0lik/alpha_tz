@@ -1,0 +1,30 @@
+{
+  "compileOnSave": true,
+  "sourceMap": true,
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "require": ["tsconfig-paths/register"]
+  },
+  "resolve": {
+    "extensions": [".js", ".jsx", ".ts", ".tsx"],
+  },
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "es2022",
+     "noImplicitAny": false,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "baseUrl": "src",
+    "paths": {
+      "*": ["node_modules/*"],
+      "@page-objects/*": ["page-objects/*"],
+      "@fixtures/*": ["fixtures/*"],
+      "@app.constants": ["app.constants"],
+      "src/*": ["./*"],
+    },
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"]
+}

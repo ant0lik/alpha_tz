@@ -2,7 +2,6 @@ dist/
 results/
 playwright-report/
 allure/
-src/storage-state
 node_modules/
 .npm
 .env
